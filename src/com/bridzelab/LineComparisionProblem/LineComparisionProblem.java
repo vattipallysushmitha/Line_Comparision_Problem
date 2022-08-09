@@ -2,14 +2,14 @@ package com.bridzelab.LineComparisionProblem;
 import java.util.Scanner;
 
 public class LineComparisionProblem {
-	
-   	public static void main(String[] args) {
+public static void main(String[] args) {
 		 int x1, x2, y1, y2, a1, a2, b1, b2;
 	        double length1, length2;
 		System.out.println("Welcome to Line Comparison Program in java");
 		//Scanner Object for User Input
 	    Scanner sc=new Scanner(System.in);
 	    System.out.println("*****************************************");
+System.out.println("Welcome to Line Comparison Program in java");
 		System.out.println("enter x1 point");
 		x1=sc.nextInt();
 		System.out.println("enter y1 point");
@@ -18,7 +18,8 @@ public class LineComparisionProblem {
 		x2=sc.nextInt();
 		System.out.println("enter y2 point");
 		y2=sc.nextInt();
-		 length1= Math.sqrt(Math.pow((x2-x1),2)+Math.pow((y2-y1),2));
+
+		length1= Math.sqrt(Math.pow((x2-x1),2)+Math.pow((y2-y1),2));
 		System.out.println("Length of the line:" + length1);
 		 System.out.println("*****************************************");
 		System.out.println("enter a1 point");
