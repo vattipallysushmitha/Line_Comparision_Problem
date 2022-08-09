@@ -1,6 +1,7 @@
 package com.bridzelab.LineComparisionProblem;
 import java.util.Scanner;
 
+
 public class LineComparisionProblem 
 {
 	
@@ -10,8 +11,7 @@ public class LineComparisionProblem
 	    public static void length1() 
 	    {
 	        System.out.println("Welcome to Line Comparison Computation Program");
-
-	        Scanner sc = new Scanner(System.in);
+           Scanner sc = new Scanner(System.in);
 	        System.out.println("*****************************");
 	        System.out.println("Enter first two co-ordinates:");
 	        x1 = sc.nextInt();
@@ -23,6 +23,7 @@ public class LineComparisionProblem
 	        System.out.println("Length of the line:" + length1);
 	        str1 = Double.toString(length1);
 	    }
+
 
 	    public static void length2()
 	    {
@@ -70,3 +71,4 @@ public class LineComparisionProblem
 	        l1.checkEqualMethod();
 	    }
 	}
+
